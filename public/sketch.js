@@ -5,7 +5,10 @@ function setup() {
     createCanvas(500, 500);
     background(124);
 
-    socket = io.connect('http://localhost:3000/');
+    // socket = io.connect('http://localhost:3000/');
+
+    // connects to default socket
+    socket = io();
 
 }
 
